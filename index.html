@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<title>Player</title>
+</head>
+
+<body>
+    <div id="button-container">
+        <h1 class="title">LUAN SANTANA</h1>
+    </div>
+    <div id="button-container">
+        <img src="./capa.jpeg" alt="capaDvdLuanSantana">
+    </div>
+    <div>
+        <h6 id="button-container">CANTADA - (Luan Santana / Dudu Borges / Jorge)</h6>
+    </div>
+    <div id="button-container">
+        <button id="botao1" onclick="play()"><i class="bi bi-play-fill"></i></button>
+        <button id="botao2" onclick="pause()"><i class="bi bi-pause-fill"></i></button>
+        <button id="botao3" onclick="stop()"><i class="bi bi-fast-forward-fill"></i></button>
+    </div>
+
+    <audio id="player" src="./musica/Cantada_u33HBEvQj3A.mp3"></audio>
+    <!-- <audio id="2" src="./musica/Promete (Ao Vivo)_wiYE7VXn8Gk.mp3"></audio> -->
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
