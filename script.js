@@ -13,6 +13,3 @@ function stop() {
     som.src= "./musica/Promete (Ao Vivo)_wiYE7VXn8Gk.mp3"
     console.log(som.src);
 }
-
-
-
